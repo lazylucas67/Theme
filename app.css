@@ -2659,7 +2659,7 @@ div[aria-label="Hazy Settings"] .main-trackCreditsModal-mainSection {
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 0 0 25px hsl(from var(--spice-accent) h s l / 0.15);
   border-radius: 16px !important;
   padding: 24px !important;
-  max-width: 480px;
+  max-width: 580px;
   width: 100%;
 }
 
