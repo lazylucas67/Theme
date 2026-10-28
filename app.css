@@ -3023,6 +3023,36 @@ EXTENSION-SPECIFIC TWEAKS
   box-shadow: none !important;
   border: 0 !important;
 }
+/*-------------------------
+ИСПРАВЛЕНИЕ ПРЕВЬЮ КАРТИНКИ
+--------------------------*/
+#home-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px !important;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: var(--button-border);
+  overflow: hidden;
+}
+
+#home-select .main-entityHeader-image {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+#home-select img {
+  object-fit: contain !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  border-radius: var(--button-border);
+}
 
 /*---------------------
 THEMED VISUALIZER ICONS
